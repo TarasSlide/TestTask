@@ -6,9 +6,7 @@
               android:layout_height="match_parent">
     <TextView
             android:id="@+id/contentText"
-            android:editable="true"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="This is Activity Two">
+            android:layout_height="wrap_content">
     </TextView>
 </LinearLayout>

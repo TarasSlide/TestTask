@@ -8,7 +8,7 @@ import android.widget.*;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
-public class MyActivity extends Activity implements OnItemClickListener {
+public class MainActivity extends Activity implements OnItemClickListener {
 
     private String[] contentText = new String[3];
 
@@ -45,7 +45,7 @@ public class MyActivity extends Activity implements OnItemClickListener {
     public void onItemClick(AdapterView<?> adapterView, View view, int i, final long l) {
         if(i > 2) return;
         Intent intent = new Intent(this, DetailsPage.class);
-        intent.putExtra("STRING_I_NEED", contentText[i]);
+        intent.putExtra("CONTENT_TEXT", contentText[i]);
         startActivity(intent);
     }
  }
