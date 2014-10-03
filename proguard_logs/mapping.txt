@@ -1,0 +1,14 @@
+com.example.testTask.DetailsPage -> com.example.testTask.DetailsPage:
+    void onCreate(android.os.Bundle) -> onCreate
+com.example.testTask.MyActivity -> com.example.testTask.MyActivity:
+    java.lang.String[] contentText -> a
+    java.lang.String[] fillArrayByRandomText() -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.example.testTask.MyActivity$1 -> com.example.testTask.a:
+    android.widget.ArrayAdapter val$adapter -> a
+    com.example.testTask.MyActivity this$0 -> b
+    void onClick(android.view.View) -> onClick
+com.example.testTask.RandomTextGenerator -> com.example.testTask.b:
+    java.security.SecureRandom random -> a
+    java.lang.String nextText() -> a

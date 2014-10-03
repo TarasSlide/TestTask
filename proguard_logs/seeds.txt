@@ -1,0 +1,12 @@
+com.example.testTask.DetailsPage
+com.example.testTask.DetailsPage: DetailsPage()
+com.example.testTask.MyActivity
+com.example.testTask.MyActivity: MyActivity()
+com.example.testTask.R$array: int myList
+com.example.testTask.R$drawable: int ic_launcher
+com.example.testTask.R$id: int contentText
+com.example.testTask.R$id: int lvMain
+com.example.testTask.R$id: int refreshButton
+com.example.testTask.R$layout: int detailspage
+com.example.testTask.R$layout: int main
+com.example.testTask.R$string: int app_name

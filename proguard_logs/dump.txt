@@ -1,0 +1,551 @@
+_____________________________________________________________________
++ Program class: com/example/testTask/DetailsPage
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.testTask.DetailsPage extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 48):
+  + Integer [2130903040]
+  + Integer [2131034112]
+  + String [STRING_I_NEED]
+  + Class [android/app/Activity]
+  + Class [android/content/Intent]
+  + Class [android/os/Bundle]
+  + Class [android/widget/TextView]
+  + Class [com/example/testTask/DetailsPage]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/content/Intent.getExtras ()Landroid/os/Bundle;]
+  + Methodref [android/os/Bundle.getString (Ljava/lang/String;)Ljava/lang/String;]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [com/example/testTask/DetailsPage.findViewById (I)Landroid/view/View;]
+  + Methodref [com/example/testTask/DetailsPage.getIntent ()Landroid/content/Intent;]
+  + Methodref [com/example/testTask/DetailsPage.setContentView (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getExtras ()Landroid/os/Bundle;]
+  + NameAndType [getIntent ()Landroid/content/Intent;]
+  + NameAndType [getString (Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + Utf8 [()Landroid/content/Intent;]
+  + Utf8 [()Landroid/os/Bundle;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/String;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [STRING_I_NEED]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/os/Bundle]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [com/example/testTask/DetailsPage]
+  + Utf8 [findViewById]
+  + Utf8 [getExtras]
+  + Utf8 [getIntent]
+  + Utf8 [getString]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+  + Utf8 [setText]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public DetailsPage()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #9
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 38, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #10
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903040]
+      [8] invokevirtual #16
+        + Methodref [com/example/testTask/DetailsPage.setContentView (I)V]
+      [11] aload_0 v0
+      [12] ldc #2
+        + Integer [2131034112]
+      [14] invokevirtual #14
+        + Methodref [com/example/testTask/DetailsPage.findViewById (I)Landroid/view/View;]
+      [17] checkcast #7
+        + Class [android/widget/TextView]
+      [20] astore_2 v2
+      [21] aload_2 v2
+      [22] aload_0 v0
+      [23] invokevirtual #15
+        + Methodref [com/example/testTask/DetailsPage.getIntent ()Landroid/content/Intent;]
+      [26] invokevirtual #11
+        + Methodref [android/content/Intent.getExtras ()Landroid/os/Bundle;]
+      [29] ldc #3
+        + String [STRING_I_NEED]
+      [31] invokevirtual #12
+        + Methodref [android/os/Bundle.getString (Ljava/lang/String;)Ljava/lang/String;]
+      [34] invokevirtual #13
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [37] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/testTask/MyActivity
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.testTask.MyActivity extends android.app.Activity
+
+Interfaces (count = 1):
+  + Class [android/widget/AdapterView$OnItemClickListener]
+
+Constant Pool (count = 88):
+  + Integer [17367043]
+  + Integer [2130903041]
+  + Integer [2131034113]
+  + Integer [2131034114]
+  + String [STRING_I_NEED]
+  + Class [android/app/Activity]
+  + Class [android/content/Intent]
+  + Class [android/widget/AdapterView$OnItemClickListener]
+  + Class [android/widget/ArrayAdapter]
+  + Class [android/widget/Button]
+  + Class [android/widget/ListView]
+  + Class [com/example/testTask/DetailsPage]
+  + Class [com/example/testTask/MyActivity]
+  + Class [com/example/testTask/a]
+  + Class [com/example/testTask/b]
+  + Class [java/lang/String]
+  + Fieldref [com/example/testTask/MyActivity.a [Ljava/lang/String;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + Methodref [android/widget/ArrayAdapter.<init> (Landroid/content/Context;I[Ljava/lang/Object;)V]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/widget/ListView.setAdapter (Landroid/widget/ListAdapter;)V]
+  + Methodref [android/widget/ListView.setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
+  + Methodref [com/example/testTask/MyActivity.a ()[Ljava/lang/String;]
+  + Methodref [com/example/testTask/MyActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [com/example/testTask/MyActivity.setContentView (I)V]
+  + Methodref [com/example/testTask/MyActivity.startActivity (Landroid/content/Intent;)V]
+  + Methodref [com/example/testTask/a.<init> (Lcom/example/testTask/MyActivity;Landroid/widget/ArrayAdapter;)V]
+  + Methodref [com/example/testTask/b.a ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;I[Ljava/lang/Object;)V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+  + NameAndType [<init> (Lcom/example/testTask/MyActivity;Landroid/widget/ArrayAdapter;)V]
+  + NameAndType [a ()Ljava/lang/String;]
+  + NameAndType [a ()[Ljava/lang/String;]
+  + NameAndType [a [Ljava/lang/String;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + NameAndType [setAdapter (Landroid/widget/ListAdapter;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [()[Ljava/lang/String;]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;I[Ljava/lang/Object;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Landroid/widget/AdapterView$OnItemClickListener;)V]
+  + Utf8 [(Landroid/widget/AdapterView;Landroid/view/View;IJ)V]
+  + Utf8 [(Landroid/widget/ListAdapter;)V]
+  + Utf8 [(Lcom/example/testTask/MyActivity;Landroid/widget/ArrayAdapter;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [STRING_I_NEED]
+  + Utf8 [StackMapTable]
+  + Utf8 [[Ljava/lang/String;]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/widget/AdapterView$OnItemClickListener]
+  + Utf8 [android/widget/ArrayAdapter]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/ListView]
+  + Utf8 [com/example/testTask/DetailsPage]
+  + Utf8 [com/example/testTask/MyActivity]
+  + Utf8 [com/example/testTask/a]
+  + Utf8 [com/example/testTask/b]
+  + Utf8 [findViewById]
+  + Utf8 [java/lang/String]
+  + Utf8 [onCreate]
+  + Utf8 [onItemClick]
+  + Utf8 [putExtra]
+  + Utf8 [setAdapter]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+  + Utf8 [setOnItemClickListener]
+  + Utf8 [startActivity]
+
+Fields (count = 1):
+  + Field:        a [Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String[] a
+
+Methods (count = 4):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MyActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #18
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] aload_0 v0
+      [5] iconst_3
+      [6] anewarray #16
+        + Class [java/lang/String]
+      [9] putfield #17
+        + Fieldref [com/example/testTask/MyActivity.a [Ljava/lang/String;]
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()[Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String[] a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 31, locals = 2, stack = 3):
+      [0] iconst_0
+      [1] istore_1 v1
+      [2] iload_1 v1
+      [3] aload_0 v0
+      [4] getfield #17
+        + Fieldref [com/example/testTask/MyActivity.a [Ljava/lang/String;]
+      [7] arraylength
+      [8] ificmpge +18 (target=26)
+      [11] aload_0 v0
+      [12] getfield #17
+        + Fieldref [com/example/testTask/MyActivity.a [Ljava/lang/String;]
+      [15] iload_1 v1
+      [16] invokestatic #31
+        + Methodref [com/example/testTask/b.a ()Ljava/lang/String;]
+      [19] aastore
+      [20] iinc v1, 1
+      [23] goto -21 (target=2)
+      [26] aload_0 v0
+      [27] getfield #17
+        + Fieldref [com/example/testTask/MyActivity.a [Ljava/lang/String;]
+      [30] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 2):
+        - [2] Var: ...[i], Stack: (empty)
+        - [26] Var: -1, Stack: (empty)
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 78, locals = 5, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #19
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #2
+        + Integer [2130903041]
+      [8] invokevirtual #28
+        + Methodref [com/example/testTask/MyActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] ldc #4
+        + Integer [2131034114]
+      [14] invokevirtual #27
+        + Methodref [com/example/testTask/MyActivity.findViewById (I)Landroid/view/View;]
+      [17] checkcast #10
+        + Class [android/widget/Button]
+      [20] astore_2 v2
+      [21] aload_0 v0
+      [22] invokevirtual #26
+        + Methodref [com/example/testTask/MyActivity.a ()[Ljava/lang/String;]
+      [25] pop
+      [26] new #9
+        + Class [android/widget/ArrayAdapter]
+      [29] dup
+      [30] aload_0 v0
+      [31] ldc #1
+        + Integer [17367043]
+      [33] aload_0 v0
+      [34] getfield #17
+        + Fieldref [com/example/testTask/MyActivity.a [Ljava/lang/String;]
+      [37] invokespecial #22
+        + Methodref [android/widget/ArrayAdapter.<init> (Landroid/content/Context;I[Ljava/lang/Object;)V]
+      [40] astore_3 v3
+      [41] aload_0 v0
+      [42] ldc #3
+        + Integer [2131034113]
+      [44] invokevirtual #27
+        + Methodref [com/example/testTask/MyActivity.findViewById (I)Landroid/view/View;]
+      [47] checkcast #11
+        + Class [android/widget/ListView]
+      [50] astore v4
+      [52] aload v4
+      [54] aload_3 v3
+      [55] invokevirtual #24
+        + Methodref [android/widget/ListView.setAdapter (Landroid/widget/ListAdapter;)V]
+      [58] aload v4
+      [60] aload_0 v0
+      [61] invokevirtual #25
+        + Methodref [android/widget/ListView.setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
+      [64] aload_2 v2
+      [65] new #14
+        + Class [com/example/testTask/a]
+      [68] dup
+      [69] aload_0 v0
+      [70] aload_3 v3
+      [71] invokespecial #30
+        + Methodref [com/example/testTask/a.<init> (Lcom/example/testTask/MyActivity;Landroid/widget/ArrayAdapter;)V]
+      [74] invokevirtual #23
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [77] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    Access flags: 0x1
+      = public void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 39, locals = 7, stack = 4):
+      [0] iload_3 v3
+      [1] iconst_2
+      [2] ificmple +4 (target=6)
+      [5] return
+      [6] new #7
+        + Class [android/content/Intent]
+      [9] dup
+      [10] aload_0 v0
+      [11] ldc #12
+        + Class [com/example/testTask/DetailsPage]
+      [13] invokespecial #20
+        + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
+      [16] astore v6
+      [18] aload v6
+      [20] ldc #5
+        + String [STRING_I_NEED]
+      [22] aload_0 v0
+      [23] getfield #17
+        + Fieldref [com/example/testTask/MyActivity.a [Ljava/lang/String;]
+      [26] iload_3 v3
+      [27] aaload
+      [28] invokevirtual #21
+        + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
+      [31] pop
+      [32] aload_0 v0
+      [33] aload v6
+      [35] invokevirtual #29
+        + Methodref [com/example/testTask/MyActivity.startActivity (Landroid/content/Intent;)V]
+      [38] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [6] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/testTask/a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.example.testTask.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 33):
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/ArrayAdapter]
+  + Class [com/example/testTask/MyActivity]
+  + Class [com/example/testTask/a]
+  + Class [java/lang/Object]
+  + Fieldref [com/example/testTask/a.a Landroid/widget/ArrayAdapter;]
+  + Fieldref [com/example/testTask/a.b Lcom/example/testTask/MyActivity;]
+  + Methodref [android/widget/ArrayAdapter.notifyDataSetChanged ()V]
+  + Methodref [com/example/testTask/MyActivity.a ()[Ljava/lang/String;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a ()[Ljava/lang/String;]
+  + NameAndType [a Landroid/widget/ArrayAdapter;]
+  + NameAndType [b Lcom/example/testTask/MyActivity;]
+  + NameAndType [notifyDataSetChanged ()V]
+  + Utf8 [()V]
+  + Utf8 [()[Ljava/lang/String;]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/example/testTask/MyActivity;Landroid/widget/ArrayAdapter;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/ArrayAdapter;]
+  + Utf8 [Lcom/example/testTask/MyActivity;]
+  + Utf8 [a]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/ArrayAdapter]
+  + Utf8 [b]
+  + Utf8 [com/example/testTask/MyActivity]
+  + Utf8 [com/example/testTask/a]
+  + Utf8 [java/lang/Object]
+  + Utf8 [notifyDataSetChanged]
+  + Utf8 [onClick]
+
+Fields (count = 2):
+  + Field:        a Landroid/widget/ArrayAdapter;
+    Access flags: 0x1010
+      = final synthetic android.widget.ArrayAdapter a
+  + Field:        b Lcom/example/testTask/MyActivity;
+    Access flags: 0x1010
+      = final synthetic com.example.testTask.MyActivity b
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/example/testTask/MyActivity;Landroid/widget/ArrayAdapter;)V
+    Access flags: 0x0
+      = a(com.example.testTask.MyActivity,android.widget.ArrayAdapter)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        + Fieldref [com/example/testTask/a.b Lcom/example/testTask/MyActivity;]
+      [5] aload_0 v0
+      [6] aload_2 v2
+      [7] putfield #6
+        + Fieldref [com/example/testTask/a.a Landroid/widget/ArrayAdapter;]
+      [10] aload_0 v0
+      [11] invokespecial #10
+        + Methodref [java/lang/Object.<init> ()V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 2, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #7
+        + Fieldref [com/example/testTask/a.b Lcom/example/testTask/MyActivity;]
+      [4] invokevirtual #9
+        + Methodref [com/example/testTask/MyActivity.a ()[Ljava/lang/String;]
+      [7] pop
+      [8] aload_0 v0
+      [9] getfield #6
+        + Fieldref [com/example/testTask/a.a Landroid/widget/ArrayAdapter;]
+      [12] invokevirtual #8
+        + Methodref [android/widget/ArrayAdapter.notifyDataSetChanged ()V]
+      [15] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/testTask/b
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.testTask.b extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 27):
+  + Class [com/example/testTask/b]
+  + Class [java/lang/Object]
+  + Class [java/math/BigInteger]
+  + Class [java/security/SecureRandom]
+  + Fieldref [com/example/testTask/b.a Ljava/security/SecureRandom;]
+  + Methodref [java/math/BigInteger.<init> (ILjava/util/Random;)V]
+  + Methodref [java/math/BigInteger.toString (I)Ljava/lang/String;]
+  + Methodref [java/security/SecureRandom.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (ILjava/util/Random;)V]
+  + NameAndType [a Ljava/security/SecureRandom;]
+  + NameAndType [toString (I)Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(ILjava/util/Random;)V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Ljava/security/SecureRandom;]
+  + Utf8 [a]
+  + Utf8 [com/example/testTask/b]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/math/BigInteger]
+  + Utf8 [java/security/SecureRandom]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        a Ljava/security/SecureRandom;
+    Access flags: 0xa
+      = private static java.security.SecureRandom a
+
+Methods (count = 2):
+  + Method:       a()Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 19, locals = 0, stack = 4):
+      [0] new #3
+        + Class [java/math/BigInteger]
+      [3] dup
+      [4] sipush 130
+      [7] getstatic #5
+        + Fieldref [com/example/testTask/b.a Ljava/security/SecureRandom;]
+      [10] invokespecial #6
+        + Methodref [java/math/BigInteger.<init> (ILjava/util/Random;)V]
+      [13] bipush 32
+      [15] invokevirtual #7
+        + Methodref [java/math/BigInteger.toString (I)Ljava/lang/String;]
+      [18] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 11, locals = 0, stack = 2):
+      [0] new #4
+        + Class [java/security/SecureRandom]
+      [3] dup
+      [4] invokespecial #8
+        + Methodref [java/security/SecureRandom.<init> ()V]
+      [7] putstatic #5
+        + Fieldref [com/example/testTask/b.a Ljava/security/SecureRandom;]
+      [10] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

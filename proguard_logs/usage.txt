@@ -1,0 +1,10 @@
+com.example.testTask.BuildConfig
+com.example.testTask.R
+com.example.testTask.R$array
+com.example.testTask.R$attr
+com.example.testTask.R$drawable
+com.example.testTask.R$id
+com.example.testTask.R$layout
+com.example.testTask.R$string
+com.example.testTask.RandomTextGenerator:
+    6:6:public RandomTextGenerator()
